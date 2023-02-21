@@ -6,6 +6,8 @@ module.exports = {
       .navigate()
       .waitForElementVisible('@welcome', 'Welcome title visible')
       .assert.textContains('@welcome', 'Welcome to Wikipedia', 'Welcome title ok')
+    
+    console.log('--- UPDATED ---');
   },
   after(browser) {
     browser.end();

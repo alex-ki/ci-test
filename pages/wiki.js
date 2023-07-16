@@ -21,7 +21,7 @@ module.exports = {
   },
   sections:{
     topMenu: {
-      selector: '.vector-menu-content-list',
+      selector: '.vector-header-end',
       elements: {
         logIn: '#pt-login-2 a',
         creatAcc: '#pt-createaccount',

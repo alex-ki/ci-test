@@ -23,4 +23,6 @@ cur dir: `docker build . -t nw-test`
 
 list: `docker images`
 
+update code
+
 run: `docker run nw-test npm test`
